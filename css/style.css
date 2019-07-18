@@ -6,6 +6,7 @@
  * Made By MaterializeCSS.com
  */
 
+
 #landing{
     height: 100vh;
     background-image: url('../bg1.jpg');
@@ -26,7 +27,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #fff;
 }
 
 p {
