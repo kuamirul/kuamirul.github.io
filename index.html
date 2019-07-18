@@ -7,6 +7,7 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
@@ -25,22 +26,30 @@
     <!-- </div> -->
   <!-- </nav> -->
   
-  <!-- Navbar -->
+<!-- START NAVBAR -->
 	<div class="navbar-fixed">
-		<nav class="black">
-			<div class="container">
-				<div class="nav-wrapper">
-					<a href="#" class="brand-logo"></a>
+		<nav class="black" role="navigation">
+			<div class="nav-wrapper container">
+
+					<a href="#" class="brand-logo">A</a>
 					<ul class="right hide-on-med-and-down" id="navList">
 						<li><a href="#landing">HOME</a></li>
 						<li><a href="#intro">ABOUT</a></li>
 						<li><a href="#project">PROJECTS</a></li>
 						<li><a href="#contact">CONTACT</a></li>
 					</ul>
-				</div>
-			</div>
+
+			</div>			
+			      <ul id="nav-mobile" class="sidenav">
+						<li><a href="#landing">HOME</a></li>
+						<li><a href="#intro">ABOUT</a></li>
+						<li><a href="#project">PROJECTS</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+				  </ul>
+				  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 		</nav>
 	</div>
+<!-- END NAVBAR --> 
   
 	<!-- Landing Screen -->
 	<div class="section" id="landing">
@@ -53,19 +62,6 @@
 			  <a href="#project" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">View Projects</a>
 			</div>
 	</div>
-
-	<!-- FIXED ACTION BUTTON -->
-	<!-- <div class="fixed-action-btn vertical"> -->
-		<!-- <a class="btn-floating btn-large  blue-grey darken-4"> -->
-			<!-- <i class="fa fa-globe"></i> -->
-		<!-- </a> -->
-		<!-- <ul> -->
-			<!-- <li><a class="btn-floating  blue darken-4"><i class="fa fa-facebook"></i></a></li> -->
-			<!-- <li><a class="btn-floating cyan lighten-1"><i class="fa fa-twitter"></i></a></li> -->
-			<!-- <li><a class="btn-floating grey darken-3"> <i class="fa fa-github"></i></a></li> -->
-			<!-- <li><a class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li> -->
-		<!-- </ul> -->
-	<!-- </div>	 -->
 	
 	<!-- Fixed Action Button -->
 	<div class="fixed-action-btn">
@@ -73,10 +69,10 @@
 		<i class="large material-icons">mode_edit</i>
 	  </a>
 	  <ul>
-		<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-		<li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-		<li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-		<li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+			<li><a class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
+			<li><a class="btn-floating grey darken-3"> <i class="fa fa-github"></i></a></li>
+			<li><a class="btn-floating  blue darken-4"><i class="fa fa-facebook"></i></a></li>
+			<li><a class="btn-floating cyan lighten-1"><i class="fa fa-twitter"></i></a></li>
 	  </ul>
 	</div>
 	
@@ -117,16 +113,16 @@
 			</div>
 			<div class="row center">
 				<div class="col s12 m12 l3">
-					<img class="responsive-img" src="img/cpp.png">
+					<img class="responsive-img" src="#">
 				</div>
 				<div class="col s12 m12 l3">
-					<img class="responsive-img" src="img/node.png">
+					<img class="responsive-img" src="#">
 				</div>
 				<div class="col s12 m12 l3">
-					<img class="responsive-img" src="img/py.png">
+					<img class="responsive-img" src="#">
 				</div>
 				<div class="col s12 m12 l3">
-					<img class="responsive-img" src="img/shell.png">
+					<img class="responsive-img" src="#">
 				</div>
 			</div>
 		</div>
@@ -134,7 +130,7 @@
 	
  
 <!-- START PROJECT CARD -->
-	<div class="section" id="project">
+	<div class="section black" id="project">
     <div class="row">
 		<div class="row">
 			<h2 class="center white-text"> PROJECTS </h2>
@@ -302,7 +298,7 @@
 	</div>
 <!-- END PROJECT CARD --> 
  
- 
+<!-- START CONTACT -->  
   <div class="section" style="background-color: #101010;" id="contact">
 	<div class="container" >
       <div class="row">
@@ -310,13 +306,19 @@
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Get In Touch</h4>
           <p class="left-align light">Lorem ipsuo, condiVestibulum ante ices posuere cubilia Curae;</p>
+		  	<div>
+			<i class="fa fa-linkedin fa-7x"></i>
+			<i class="fa fa-github fa-7x"></i>
+			<i class="fa fa-facebook fa-7x"></i>
+			<i class="fa fa-twitter fa-7x"></i>
+			</div>
         </div>
       </div>
-
     </div>
   </div>
+<!-- END CONTACT --> 
 
-
+<!-- START FOOTER --> 
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
@@ -352,7 +354,7 @@
       </div>
     </div>
   </footer>
-
+<!-- END FOOTER --> 
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -422,7 +424,15 @@
   });
 }( jQuery ));
 
-       
+    (function($){
+	  $(function(){
+
+		$('.sidenav').sidenav();
+		$('.parallax').parallax();
+
+	  }); // end of document ready
+	})(jQuery); // end of jQuery name space
+   
 	  
   </script>
 
