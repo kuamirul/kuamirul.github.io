@@ -7,9 +7,10 @@
  */
 
 
+
 #landing{
     height: 100vh;
-    background-image: url('../bg1.jpg');
+    background-image: url('https://raw.githubusercontent.com/kuamirul/kuamirul.github.io/master/images/bg1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
