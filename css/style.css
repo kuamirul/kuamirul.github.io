@@ -21,10 +21,11 @@
     margin-top: 30vh;
 }
 
-/* body { */
+body {
+	font-family: 'Oswald', sans-serif;
     /* background-color: black; */
     /* color: rgba(255,255,255,0.8); */
-/* } */
+}
 
 nav ul a,
 nav .brand-logo {
