@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ku Amirul Asyraf — Software Developer</title>
-  <meta name="description" content="Software developer based in Perlis, Malaysia. Focused on Java and JavaScript." />
+  <title>Ku Amirul Asyraf — Backend &amp; BPM Engineer</title>
+  <meta name="description" content="Backend and BPM engineer with 7+ years building and owning reliable enterprise workflow systems. Java, Spring, and BPM platforms. Perlis, Malaysia (remote)." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -22,8 +22,9 @@
       </button>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -36,7 +37,11 @@
       <div class="container">
         <p class="hero-greeting">Hi, I'm</p>
         <h1>Ku Amirul Asyraf</h1>
-        <p class="hero-tagline">Software Developer · Perlis, Malaysia</p>
+        <p class="hero-tagline">Backend &amp; BPM Engineer · Perlis, Malaysia (Remote)</p>
+        <p class="hero-value">
+          7+ years building and owning reliable enterprise systems — Java, Spring,
+          and BPM platforms.
+        </p>
         <div class="hero-links">
           <a href="https://github.com/kuamirul" target="_blank" rel="noopener noreferrer" class="hero-link">
             GitHub ↗
@@ -62,15 +67,110 @@
           />
           <div class="about-text">
             <p>
-              I'm a software developer from Perlis, Malaysia with a focus on Java and
-              JavaScript. I enjoy building reliable backend systems and web applications
-              that are maintainable and solve real problems.
+              I'm a backend and BPM engineer with 7+ years in software development and
+              around 4 years hands-on with Java and Spring, working fully remote across
+              distributed teams. I own IWS, a mission-critical insurance workflow system
+              serving MetLife Bangladesh, where I held a first-time response and
+              resolution SLA above 90% for eight consecutive months.
             </p>
             <p>
-              I believe in continuous learning and staying current with evolving
-              technologies, software practices, and engineering fundamentals.
+              I've grown from frontline support into feature design and architecture
+              decisions on a legacy enterprise system with seven live integrations. I
+              document what I build, own incidents end to end, and care about leaving
+              systems more reliable than I found them.
             </p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="container">
+        <span class="label">Experience</span>
+        <div class="experience-list">
+
+          <article class="experience-item">
+            <div class="experience-head">
+              <h3 class="experience-role">BPM Software Developer <span class="experience-mode">(Remote)</span></h3>
+              <span class="experience-dates">Jun 2022 — Present</span>
+            </div>
+            <p class="experience-company">Inspire Innovations LLC</p>
+            <div class="project-tags experience-tags">
+              <span class="project-tag">Java 8 / 21</span>
+              <span class="project-tag">Spring</span>
+              <span class="project-tag">Dojo.js</span>
+              <span class="project-tag">FileNet</span>
+              <span class="project-tag">DataCap</span>
+              <span class="project-tag">WebSphere</span>
+              <span class="project-tag">DB2</span>
+              <span class="project-tag">Azure DevOps</span>
+              <span class="project-tag">AWS</span>
+            </div>
+            <ul class="experience-points">
+              <li>Own IWS end to end — a mission-critical insurance workflow system serving MetLife Bangladesh with ~200 users and up to 15,000 cases processed on peak days.</li>
+              <li>Held a first-time response and resolution SLA above 90% for eight consecutive months through disciplined incident management and clear client communication.</li>
+              <li>Root-caused a New Year's Eve production incident where an undocumented payment-API change misrouted 2,400+ policies; traced it across IWS, FileNet, and DataCap logs and recovered all affected cases with no data loss.</li>
+              <li>Integrated IWS with seven external systems (MetLife GSSP, DataCap, SMS/email gateways, a push-notification API, OAuth, and an AS400 rule engine); upgraded FileNet 5.5.6 → 5.7.0 and WebSphere, and remediated Veracode and ethical-hacking findings on the live system.</li>
+            </ul>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-head">
+              <h3 class="experience-role">Full Stack Developer / Research Officer</h3>
+              <span class="experience-dates">Sep 2019 — May 2022</span>
+            </div>
+            <p class="experience-company">Center for Research in Data Science (CeRDaS), Universiti Teknologi PETRONAS</p>
+            <div class="project-tags experience-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">pandas</span>
+              <span class="project-tag">Dask</span>
+              <span class="project-tag">C# .NET</span>
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MSSQL</span>
+              <span class="project-tag">Docker</span>
+              <span class="project-tag">Linux (DGX)</span>
+            </div>
+            <ul class="experience-points">
+              <li>Designed the data-processing pipeline for an AI system predicting failures in offshore-platform equipment, handling 60GB of sensor data across 17,000+ tags.</li>
+              <li>Cut pipeline runtime from 50 hours to 14 hours (~72%) by moving from single-threaded pandas to parallel batch processing with Dask.</li>
+              <li>Built and deployed Dockerized REST APIs for machine-learning predictions, administered NVIDIA DGX Linux servers, and trained 10 PETRONAS engineers on the prediction dashboards.</li>
+            </ul>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-head">
+              <h3 class="experience-role">Web Developer &amp; Webmaster <span class="experience-mode">(Freelance)</span></h3>
+              <span class="experience-dates">Aug 2018 — Jun 2019</span>
+            </div>
+            <p class="experience-company">Information Resource Center, Universiti Teknologi PETRONAS</p>
+            <div class="project-tags experience-tags">
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">WordPress</span>
+              <span class="project-tag">VuFind</span>
+              <span class="project-tag">Joomla</span>
+            </div>
+            <ul class="experience-points">
+              <li>Built the UTP uLibrary website end to end and migrated content from Joomla to WordPress; developed the UTP Research Gateway using PHP and the VuFind framework.</li>
+              <li>Developed and maintained microsites across the UTP Research Gateway ecosystem, including the Institutes of Autonomous Systems, Self-Sustainable Building, Transport Infrastructure, Contaminant Management, Hydrocarbon Recovery, and Health &amp; Analytics.</li>
+            </ul>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-head">
+              <h3 class="experience-role">Web Developer <span class="experience-mode">(Freelance)</span></h3>
+              <span class="experience-dates">Jun 2019 — Sep 2019</span>
+            </div>
+            <p class="experience-company">Knowledge Link Sdn. Bhd.</p>
+            <div class="project-tags experience-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Spring MVC</span>
+            </div>
+            <ul class="experience-points">
+              <li>Built a web-based book-label generator with Java Spring MVC to replace a legacy system for a Malaysian state public library, owning stakeholder communication through deployment.</li>
+            </ul>
+          </article>
+
         </div>
       </div>
     </section>
@@ -83,181 +183,117 @@
           <div class="skill-group">
             <span class="skill-group-label">Languages</span>
             <div class="skill-tags">
-              <span class="skill-tag">Java</span>
-              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Java (8, 21)</span>
               <span class="skill-tag">Python</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">C# .NET</span>
               <span class="skill-tag">PHP</span>
+              <span class="skill-tag">SQL</span>
             </div>
           </div>
           <div class="skill-group">
-            <span class="skill-group-label">Frameworks &amp; Tools</span>
+            <span class="skill-group-label">Backend &amp; APIs</span>
             <div class="skill-tags">
-              <span class="skill-tag">Spring Boot</span>
-              <span class="skill-tag">Spring Framework</span>
-              <span class="skill-tag">Node.js</span>
-              <span class="skill-tag">WordPress</span>
+              <span class="skill-tag">Spring</span>
+              <span class="skill-tag">REST APIs</span>
+              <span class="skill-tag">Microservices</span>
+              <span class="skill-tag">Dojo.js</span>
+              <span class="skill-tag">Angular</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <span class="skill-group-label">BPM &amp; Enterprise</span>
+            <div class="skill-tags">
+              <span class="skill-tag">FileNet</span>
+              <span class="skill-tag">DataCap</span>
+              <span class="skill-tag">WebSphere</span>
+              <span class="skill-tag">Oracle BPM (IPAS)</span>
+              <span class="skill-tag">AS400</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <span class="skill-group-label">Data &amp; ETL</span>
+            <div class="skill-tags">
+              <span class="skill-tag">pandas</span>
+              <span class="skill-tag">Dask</span>
+              <span class="skill-tag">ETL pipeline design</span>
             </div>
           </div>
           <div class="skill-group">
             <span class="skill-group-label">Databases</span>
             <div class="skill-tags">
-              <span class="skill-tag">MS SQL Server</span>
+              <span class="skill-tag">DB2</span>
+              <span class="skill-tag">MSSQL</span>
               <span class="skill-tag">MySQL</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <span class="skill-group-label">Cloud &amp; DevOps</span>
+            <div class="skill-tags">
+              <span class="skill-tag">AWS (CloudWatch, S3)</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Azure DevOps</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Maven</span>
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">Bash</span>
+              <span class="skill-tag">PowerShell</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <span class="skill-group-label">Practices</span>
+            <div class="skill-tags">
+              <span class="skill-tag">Incident management</span>
+              <span class="skill-tag">Root cause analysis</span>
+              <span class="skill-tag">Code review</span>
+              <span class="skill-tag">Technical documentation</span>
+              <span class="skill-tag">Runbooks</span>
+              <span class="skill-tag">Agile</span>
+              <span class="skill-tag">Veracode remediation</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Projects -->
-    <section id="projects">
+    <!-- Education -->
+    <section id="education">
       <div class="container">
-        <span class="label">Projects</span>
-        <p class="projects-note">
-          A selection of professional work. Most projects are proprietary —
-          descriptions focus on what was built and the technologies used.
-        </p>
-        <ol class="project-list">
+        <span class="label">Education</span>
+        <div class="record-list">
 
-          <li class="project-item">
-            <div class="project-info">
-              <span class="project-number">01</span>
-              <div class="project-details">
-                <span class="project-name">Center for Research in Data Science (CERDAS) UTP</span>
-                <span class="project-desc">Institutional research center website with dynamic content management and publication listings.</span>
-                <div class="project-tags">
-                  <span class="project-tag">PHP</span>
-                  <span class="project-tag">WordPress</span>
-                  <span class="project-tag">MySQL</span>
-                </div>
-              </div>
+          <div class="record-item">
+            <div class="record-head">
+              <h3 class="record-title">MSc, Information Technology</h3>
+              <span class="record-dates">Jan 2020 — Jun 2024</span>
             </div>
-            <a href="https://cerdas.utp.edu.my/cerdas/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View CERDAS UTP">↗</a>
-          </li>
+            <p class="record-sub">Universiti Teknologi PETRONAS</p>
+            <p class="record-detail">Thesis: An Integrated Feature Selection Approach for Remaining Useful Life Prediction of Industrial Machinery.</p>
+          </div>
 
-          <li class="project-item">
-            <div class="project-info">
-              <span class="project-number">02</span>
-              <div class="project-details">
-                <span class="project-name">uLibrary UTP</span>
-                <span class="project-desc">University library web platform with resource discovery and information portal features.</span>
-                <div class="project-tags">
-                  <span class="project-tag">Java</span>
-                  <span class="project-tag">Spring</span>
-                  <span class="project-tag">MS SQL</span>
-                </div>
-              </div>
+          <div class="record-item">
+            <div class="record-head">
+              <h3 class="record-title">BTech (Hons), Information &amp; Communication Technology</h3>
+              <span class="record-dates">Jan 2015 — Aug 2018</span>
             </div>
-            <a href="https://ulibrary.utp.edu.my" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View uLibrary UTP">↗</a>
-          </li>
+            <p class="record-sub">Universiti Teknologi PETRONAS</p>
+            <p class="record-detail">CGPA 3.63 · Major: Software Engineering · Minor: Corporate Management.</p>
+          </div>
 
-          <li class="project-item">
-            <div class="project-info">
-              <span class="project-number">03</span>
-              <div class="project-details">
-                <span class="project-name">UTP Research Gateway</span>
-                <span class="project-desc">Centralized research portal connecting UTP's research institutes, faculty, and publications.</span>
-                <div class="project-tags">
-                  <span class="project-tag">PHP</span>
-                  <span class="project-tag">WordPress</span>
-                  <span class="project-tag">MySQL</span>
-                </div>
-              </div>
+        </div>
+
+        <span class="label label-cert">Certification</span>
+        <div class="record-list">
+          <div class="record-item">
+            <div class="record-head">
+              <h3 class="record-title">Certified Tester Foundation Level (CTFL)</h3>
+              <span class="record-dates">Cert #MY0322-18</span>
             </div>
-            <a href="https://gateway.utp.edu.my" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View UTP Research Gateway">↗</a>
-          </li>
-
-          <li class="project-item">
-            <div class="project-info">
-              <span class="project-number">04</span>
-              <div class="project-details">
-                <span class="project-name">Institute of Autonomous System UTP</span>
-                <span class="project-desc">Microsite for the Institute of Autonomous System for Autonomous Facilities, part of the UTP Research Gateway ecosystem.</span>
-                <div class="project-tags">
-                  <span class="project-tag">PHP</span>
-                  <span class="project-tag">WordPress</span>
-                </div>
-              </div>
-            </div>
-            <a href="https://gateway.utp.edu.my/autonomous/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Institute of Autonomous System UTP">↗</a>
-          </li>
-
-          <li class="project-item">
-            <div class="project-info">
-              <span class="project-number">05</span>
-              <div class="project-details">
-                <span class="project-name">Institute for Self Sustainable Building UTP</span>
-                <span class="project-desc">Research institute microsite focused on sustainable building technologies and publications.</span>
-                <div class="project-tags">
-                  <span class="project-tag">PHP</span>
-                  <span class="project-tag">WordPress</span>
-                </div>
-              </div>
-            </div>
-            <a href="https://gateway.utp.edu.my/sustainable/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Institute for Self Sustainable Building UTP">↗</a>
-          </li>
-
-          <li class="project-item">
-            <div class="project-info">
-              <span class="project-number">06</span>
-              <div class="project-details">
-                <span class="project-name">Institute of Transport Infrastructure UTP</span>
-                <span class="project-desc">Research institute microsite covering transport infrastructure engineering and research activities.</span>
-                <div class="project-tags">
-                  <span class="project-tag">PHP</span>
-                  <span class="project-tag">WordPress</span>
-                </div>
-              </div>
-            </div>
-            <a href="https://gateway.utp.edu.my/transport/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Institute of Transport Infrastructure UTP">↗</a>
-          </li>
-
-          <li class="project-item">
-            <div class="project-info">
-              <span class="project-number">07</span>
-              <div class="project-details">
-                <span class="project-name">Institute of Contaminant Management UTP</span>
-                <span class="project-desc">Research institute microsite for contaminant management in the oil and gas sector.</span>
-                <div class="project-tags">
-                  <span class="project-tag">PHP</span>
-                  <span class="project-tag">WordPress</span>
-                </div>
-              </div>
-            </div>
-            <a href="https://gateway.utp.edu.my/contaminant/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Institute of Contaminant Management UTP">↗</a>
-          </li>
-
-          <li class="project-item">
-            <div class="project-info">
-              <span class="project-number">08</span>
-              <div class="project-details">
-                <span class="project-name">Institute of Hydrocarbon Recovery UTP</span>
-                <span class="project-desc">Research institute microsite for hydrocarbon recovery research and engineering projects.</span>
-                <div class="project-tags">
-                  <span class="project-tag">PHP</span>
-                  <span class="project-tag">WordPress</span>
-                </div>
-              </div>
-            </div>
-            <a href="https://gateway.utp.edu.my/hydrocarbon/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Institute of Hydrocarbon Recovery UTP">↗</a>
-          </li>
-
-          <li class="project-item">
-            <div class="project-info">
-              <span class="project-number">09</span>
-              <div class="project-details">
-                <span class="project-name">Institute of Health and Analytics UTP</span>
-                <span class="project-desc">Research institute microsite for personalised care health analytics and research initiatives.</span>
-                <div class="project-tags">
-                  <span class="project-tag">PHP</span>
-                  <span class="project-tag">WordPress</span>
-                </div>
-              </div>
-            </div>
-            <a href="https://gateway.utp.edu.my/health/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Institute of Health and Analytics UTP">↗</a>
-          </li>
-
-        </ol>
+            <p class="record-sub">Malaysian Software Testing Board</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -271,8 +307,6 @@
         <div class="contact-links">
           <a href="https://linkedin.com/in/kuamirulasyraf/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
           <a href="https://github.com/kuamirul" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-          <a href="https://www.facebook.com/kuamirul.asyraf" target="_blank" rel="noopener noreferrer">Facebook ↗</a>
-          <a href="https://twitter.com/kuAmirul_" target="_blank" rel="noopener noreferrer">Twitter ↗</a>
         </div>
       </div>
     </section>
@@ -281,7 +315,7 @@
 
   <footer>
     <div class="container">
-      <span>© 2025 Ku Amirul Asyraf</span>
+      <span>© 2026 Ku Amirul Asyraf</span>
     </div>
   </footer>
 

@@ -214,6 +214,14 @@ nav {
 .hero-tagline {
   font-size: 1.0625rem;
   color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.hero-value {
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.7;
+  max-width: 520px;
   margin-bottom: 2rem;
 }
 
@@ -451,4 +459,150 @@ footer .container {
 footer span {
   font-size: 0.8125rem;
   color: var(--muted);
+}
+
+/* ─── Experience ─────────────────────────────────────────────────────────  */
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-item {
+  padding: 1.75rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.experience-item:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.experience-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.experience-role {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.experience-mode {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.experience-dates {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.experience-company {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
+.experience-tags {
+  margin-top: 0.85rem;
+}
+
+.experience-points {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.experience-points li {
+  position: relative;
+  padding-left: 1.1rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.experience-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* ─── Education & Certification (records) ────────────────────────────────  */
+
+.label-cert {
+  margin-top: 3.5rem;
+}
+
+.record-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.record-item {
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.record-item:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.record-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.record-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.record-dates {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.record-sub {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
+.record-detail {
+  font-size: 0.8125rem;
+  color: var(--muted);
+  line-height: 1.55;
+  margin-top: 0.4rem;
+}
+
+@media (max-width: 480px) {
+  .experience-dates,
+  .record-dates {
+    width: 100%;
+  }
 }
